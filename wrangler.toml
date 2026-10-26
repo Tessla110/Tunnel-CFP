@@ -18,3 +18,4 @@ UUID = "8b93a321-b95b-41d3-81c4-96700eed939b"  # ← 换成你自己的 UUIDv4
 
 [observability]
 enabled = true
+# rebuild probe: trigger a fresh build to verify production rollout
