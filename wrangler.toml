@@ -1,4 +1,4 @@
-name = "proxy"
+name = "cfp"
 main = "src/index.ts"
 compatibility_date = "2025-09-01"
 compatibility_flags = ["nodejs_compat"]
@@ -10,11 +10,11 @@ routes = [
 # KV：面板配置存储
 [[kv_namespaces]]
 binding = "KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "837d2084a765439c8679f014b0e7e31e"
 
 [vars]
 # UUID 节点认证：部署时生成一次写入（非机密但应稳定）
-UUID = "00000000-0000-4000-8000-000000000000" # ← 换成你自己的 UUIDv4
+UUID = "8b93a321-b95b-41d3-81c4-96700eed939b"  # ← 换成你自己的 UUIDv4
 
 [observability]
 enabled = true
